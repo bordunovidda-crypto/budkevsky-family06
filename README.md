@@ -1,4 +1,3 @@
-
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
@@ -8,7 +7,7 @@
   body {
     margin: 0;
     font-family: sans-serif;
-    background: #371A93;
+    background: #371A94;
     color: #FFFFFF;
   }
 
@@ -21,6 +20,9 @@
 
   .logo {
     width: 120px;
+    /* Перекрашивание лого в цветовую гамму сайта */
+    filter: brightness(0) saturate(100%) invert(17%) sepia(27%) 
+            saturate(2887%) hue-rotate(245deg) brightness(85%) contrast(90%);
   }
 
   .page {
@@ -45,7 +47,7 @@
 
   .btn-nav {
     background: #ffccff;
-    color: #371a93;
+    color: #371A94;
     margin: 10px;
   }
 
@@ -168,10 +170,4 @@
 <script>
   function openPage(name) {
     document.querySelectorAll('.page')
-      .forEach(p => p.classList.remove('active'));
-    document.getElementById(name).classList.add('active');
-  }
-</script>
-
-</body>
-</html>
+      .forEach(p => p.classList.
