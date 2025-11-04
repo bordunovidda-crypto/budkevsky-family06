@@ -19,7 +19,7 @@
     border-bottom: 2px solid #5A0B76;
   }
 
-  logo {
+  .logo {
     width: 120px;
   }
 
