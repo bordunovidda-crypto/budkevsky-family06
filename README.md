@@ -12,15 +12,14 @@
   }
 
   header {
-    background: rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.1);
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #5A0B76;
+    border-bottom: 2px solid #371A94;
   }
 
   .logo {
     width: 120px;
-    /* Перекрашивание лого в цветовую гамму сайта */
     filter: brightness(0) saturate(100%) invert(17%) sepia(27%) 
             saturate(2887%) hue-rotate(245deg) brightness(85%) contrast(90%);
   }
@@ -46,13 +45,19 @@
   }
 
   .btn-nav {
-    background: #ffccff;
-    color: #371A94;
+    background: rgba(255,255,255,0.18);
+    color: #FFFFFF;
     margin: 10px;
   }
 
+  .btn-nav:hover {
+    background: rgba(255,255,255,0.3);
+  }
+
   h2 {
-    color: #ffccff;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255,255,255,0.25);
+    padding-bottom: 6px;
   }
 
   /* Нумерация устава */
@@ -79,14 +84,13 @@
   }
   ol.nested li ol li::before {
     content: counter(section) "." counter(subsection) ". ";
-    font-weight: normal;
   }
 </style>
 </head>
 <body>
 
 <header>
-  <img class="logo" src="[https://i.postimg.cc/MKsbpWsw/IMG-0302.png](https://i.postimg.cc/SR1yzVNj/IMG-0302.png)" alt="Логотип">
+  <img class="logo" src="https://i.postimg.cc/MKsbpWsw/IMG-0302.png" alt="Логотип">
   <h1>Семья Budkevsky</h1>
 </header>
 
@@ -120,33 +124,33 @@
     <li>Дисциплина и обязанности
       <ol>
         <li>Участники обязаны проявлять уважение к другим членам семьи и игрокам.</li>
-        <li>Запрещено использование нецензурной брани, оскорблений и провокация ссор.</li>
-        <li>Заместитель семьи должен быть примером для остальных, соблюдать этические нормы и помогать другим.</li>
+        <li>Запрещено использование нецензурной брани, оскорблений и провокаций.</li>
+        <li>Заместитель семьи — образец поведения.</li>
       </ol>
     </li>
 
     <li>Общение
       <ol>
         <li>Общение должно быть уважительным и конструктивным.</li>
-        <li>Запрещено использование мата, агрессии и провокация ссор.</li>
+        <li>Запрещён мат и агрессия.</li>
       </ol>
     </li>
 
     <li>Участие в жизни семьи
       <ol>
-        <li>Каждый участник обязан активно участвовать в жизни семьи и помогать новичкам.</li>
+        <li>Каждый обязан помогать новичкам.</li>
       </ol>
     </li>
 
     <li>Конфиденциальность
       <ol>
-        <li>Участники обязаны соблюдать конфиденциальность личной информации других членов семьи.</li>
+        <li>Нельзя передавать личную информацию.</li>
       </ol>
     </li>
 
     <li>Поддержка и помощь
       <ol>
-        <li>Опытные участники обязаны помогать новичкам и делиться знаниями.</li>
+        <li>Опытные участники помогают новичкам.</li>
       </ol>
     </li>
   </ol>
@@ -170,4 +174,10 @@
 <script>
   function openPage(name) {
     document.querySelectorAll('.page')
-      .forEach(p => p.classList.
+      .forEach(p => p.classList.remove('active'));
+    document.getElementById(name).classList.add('active');
+  }
+</script>
+
+</body>
+</html>
