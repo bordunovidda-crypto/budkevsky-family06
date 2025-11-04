@@ -83,10 +83,10 @@
 </head>
 <body>
 
-<button>
+<header>
   <img class="logo" src="https://i.postimg.cc/MKsbpWsw/IMG-0302.png" alt="Логотип">
   <h1>Семья Budkevsky</h1>
-</button>
+</header>
 
 <!-- ================== ГЛАВНАЯ ================== -->
 <div id="home" class="page active">
