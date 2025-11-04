@@ -2,8 +2,10 @@
 <head>
 <meta charset="UTF-8">
 <title>BUDKEVSKY — Главная</title>
-
-  <link rel="icon" type="image/png" href="https://i.postimg.cc/87Yfsgcg/IMG-0302.png">
+<html lang="ru">
+  
+  <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/J0CZf2rr/favicon.ico">
+<link rel="icon" type="image/png" href="https://i.postimg.cc/26ZbCZBL/favicon-32.png">
 
   <style>
   body {
