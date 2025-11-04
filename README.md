@@ -45,7 +45,7 @@
 
   .btn-nav {
     background: #ffccff;
-    color: #371A93;
+    color: #371A94;
     margin: 10px;
   }
 
