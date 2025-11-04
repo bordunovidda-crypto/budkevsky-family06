@@ -21,7 +21,6 @@
 
   .logo {
     width: 120px;
-    color: #000000;
   }
 
   .page {
