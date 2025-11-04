@@ -1,8 +1,10 @@
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>BUDKEVSKY — Главная</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Устав семьи BUDKEVSKY</title>
 
 <style>
   body {
@@ -20,96 +22,89 @@
   }
 
   .logo {
-    width: 120px;
-  }
-
-  .page {
-    display: none;
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-  }
-
-  .active {
-    display: block;
-  }
-
-  button {
-    margin-top: 15px;
-    padding: 10px 18px;
-    border: none;
-    cursor: pointer;
+    width: 140px;
+    max-width: 60%;
     border-radius: 8px;
-    font-weight: bold;
   }
 
-  .btn-nav {
-    background: #ffccff;
-    color: #371A94;
-    margin: 10px;
+  h1 {
+    margin: 10px 0 0;
+    font-size: 28px;
   }
 
-  h2 {
-    color: #ffccff;
+  main {
+    max-width: 900px;
+    padding: 20px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.6;
   }
 
-  /* Нумерация устава */
   ol.nested {
     counter-reset: section;
     list-style: none;
     padding-left: 0;
   }
+
   ol.nested > li {
     counter-increment: section;
     margin-bottom: 15px;
   }
-  ol.nested > li::before {
+
+  ol.nested > li:before {
     content: counter(section) ". ";
     font-weight: bold;
   }
+
   ol.nested li ol {
     counter-reset: subsection;
     margin-left: 20px;
     list-style: none;
   }
+
   ol.nested li ol li {
     counter-increment: subsection;
   }
-  ol.nested li ol li::before {
+
+  ol.nested li ol li:before {
     content: counter(section) "." counter(subsection) ". ";
-    font-weight: normal;
+  }
+
+  /* ✅ Адаптив */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 22px;
+    }
+    main {
+      padding: 15px;
+      font-size: 16px;
+    }
+    .logo {
+      width: 120px;
+    }
   }
 </style>
 </head>
-<body>
 
+<body>
 <header>
-  <img class="logo" src="https://i.postimg.cc/MKsbpWsw/IMG-0302.png" alt="Логотип">
-  <h1>Семья Budkevsky</h1>
+  <img class="logo" src="" alt="Логотип">
+  <h1>06 сервер</h1>
+  <h1>Устав семьи Будевских</h1>
 </header>
 
-<!-- ================== ГЛАВНАЯ ================== -->
-<div id="home" class="page active">
-  <h2>Главное меню</h2>
-
-  <button class="btn-nav" onclick="openPage('ustav')">Устав семьи</button>
-  <button class="btn-nav" onclick="openPage('ceny')">Цены на ранги</button>
-</div>
-
-<!-- ================== УСТАВ ================== -->
-<div id="ustav" class="page">
-  <h2>Устав семьи</h2>
-
+<main>
   <ol class="nested">
     <li>Основные положения
       <ol>
         <li>Каждый член семьи обязан знать устав.</li>
-        <li>Незнание устава не освобождает от ответственности. Нарушение устава влечёт наказание:
+        <li>Незнание устава не освобождает от ответственности.
+          Нарушение устава влечёт наказание:
           <ul>
-            Выговор,
-            устный разговор,
-            понижение,
-            исключение из семьи с занесением в ЧС (на рассмотрение главного следящего или лидера семьи).
+            <li>Выговор</li>
+            <li>Устный разговор</li>
+            <li>Понижение</li>
+            <li>Исключение из семьи с занесением в ЧС (по решению главного следящего или лидера)</li>
           </ul>
         </li>
       </ol>
@@ -117,61 +112,37 @@
 
     <li>Дисциплина и обязанности
       <ol>
-        <li>Участники обязаны проявлять уважение к другим членам семьи и игрокам.</li>
-        <li>Запрещено использование нецензурной брани, оскорблений и провокация ссор.</li>
-        <li>Заместитель семьи должен быть примером для остальных, соблюдать этические нормы и помогать другим.</li>
+        <li>Участники обязаны проявлять уважение к членам семьи и игрокам.</li>
+        <li>Запрещены оскорбления, мат, провокации.</li>
+        <li>Заместитель обязан быть примером и помогать игрокам.</li>
       </ol>
     </li>
 
     <li>Общение
       <ol>
-        <li>Общение должно быть уважительным и конструктивным.</li>
-        <li>Запрещено использование мата, агрессии и провокация ссор.</li>
+        <li>Общение должно быть спокойным и конструктивным.</li>
+        <li>Запрещены мат, агрессия, провокации.</li>
       </ol>
     </li>
 
     <li>Участие в жизни семьи
       <ol>
-        <li>Каждый участник обязан активно участвовать в жизни семьи и помогать новичкам.</li>
+        <li>Каждый обязан участвовать в развитии семьи и помогать новичкам.</li>
       </ol>
     </li>
 
     <li>Конфиденциальность
       <ol>
-        <li>Участники обязаны соблюдать конфиденциальность личной информации других членов семьи.</li>
+        <li>Запрещено разглашать личные данные участников.</li>
       </ol>
     </li>
 
-    <li>Поддержка и помощь
+    <li>Поддержка
       <ol>
-        <li>Опытные участники обязаны помогать новичкам и делиться знаниями.</li>
+        <li>Старшие обязаны помогать и обучать новичков.</li>
       </ol>
     </li>
   </ol>
-
-  <button class="btn-nav" onclick="openPage('home')">Назад</button>
-</div>
-
-<!-- ================== ЦЕНЫ ================== -->
-<div id="ceny" class="page">
-  <h2>Цены на ранги</h2>
-
-  <p>2 — <b>45 000 ₽</b></p>
-  <p>3 — <b>75 000 ₽</b></p>
-  <p>4 — <b>100 000 ₽</b></p>
-  <p>5 — <b>125 000 ₽</b></p>
-  <p>6 (стрелок) — <b>1 000 000 ₽</b> или доверка</p>
-
-  <button class="btn-nav" onclick="openPage('home')">Назад</button>
-</div>
-
-<script>
-  function openPage(name) {
-    document.querySelectorAll('.page')
-      .forEach(p => p.classList.remove('active'));
-    document.getElementById(name).classList.add('active');
-  }
-</script>
-
+</main>
 </body>
-</html>
+</html>>
