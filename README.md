@@ -3,7 +3,9 @@
 <meta charset="UTF-8">
 <title>BUDKEVSKY — Главная</title>
 
-<style>
+  <link rel="icon" type="image/png" href="https://i.postimg.cc/87Yfsgcg/IMG-0302.png">
+
+  <style>
   body {
     margin: 0;
     font-family: sans-serif;
@@ -90,7 +92,7 @@
 <body>
 
 <header>
-  <img class="logo" src="[url=https://postimages.org/][img]https://i.postimg.cc/87Yfsgcg/IMG-0302.png[/img][/url]"alt="Логотип">
+  <img class="logo" src="https://i.postimg.cc/6QWrj9Nq/IMG-0302.png"alt="Логотип">
   <h1>Семья Budkevsky</h1>
 </header>
 
