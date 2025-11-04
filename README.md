@@ -90,7 +90,7 @@
 <body>
 
 <header>
-  <img class="logo" src="<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/87Yfsgcg/IMG-0302.png' border='0' alt='IMG-0302'></a>"alt="Логотип">
+  <img class="logo" src="[url=https://postimages.org/][img]https://i.postimg.cc/87Yfsgcg/IMG-0302.png[/img][/url]"alt="Логотип">
   <h1>Семья Budkevsky</h1>
 </header>
 
