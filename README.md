@@ -5,7 +5,7 @@
 <html lang="ru">
   
   <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/J0CZf2rr/favicon.ico">
-<link rel="icon" type="image/png" href="https://i.postimg.cc/26ZbCZBL/favicon-32.png">
+ <link rel="icon" type="image/png" href="https://i.postimg.cc/26ZbCZBL/favicon-32.png">
 
   <style>
   body {
@@ -90,7 +90,7 @@
     content: counter(section) "." counter(subsection) ". ";
   }
 </style>
-</head>
+
 <body>
 
 <header>
